@@ -1,3 +1,49 @@
+*.cs diff=csharp text
+*.cginc text
+*.shader text
+
+*.mat merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.physicsMaterial2D merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.meta merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+## git-lfs ##
+#Image
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.ai filter=lfs diff=lfs merge=lfs -text
+#Audio
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+#Video
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+#3D Object
+*.FBX filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+#ETC
+*.a filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.aif filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.rns filter=lfs diff=lfs merge=lfs -text
+*.reason filter=lfs diff=lfs merge=lfs -text
+*.lxo filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.DS_Store filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
@@ -50,7 +96,6 @@
 *.prefs filter=lfs diff=lfs merge=lfs -text
 *.asset filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
 *.meta filter=lfs diff=lfs merge=lfs -text
 *.ModuleCompilationTrigger filter=lfs diff=lfs merge=lfs -text
 /Midnight-Maneuver/Library/PackageManager/ProjectCache filter=lfs diff=lfs merge=lfs -text
@@ -70,17 +115,11 @@
 *.settings filter=lfs diff=lfs merge=lfs -text
 *.mat filter=lfs diff=lfs merge=lfs -text
 *.prefab filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.fbx filter=lfs diff=lfs merge=lfs -text
-*.FBX filter=lfs diff=lfs merge=lfs -text
 *.unity filter=lfs diff=lfs merge=lfs -text
 *.controller filter=lfs diff=lfs merge=lfs -text
 *.lighting filter=lfs diff=lfs merge=lfs -text
-*.pdf filter=lfs diff=lfs merge=lfs -text
 *.cs filter=lfs diff=lfs merge=lfs -text
 *.shadergraph filter=lfs diff=lfs merge=lfs -text
-*.wav filter=lfs diff=lfs merge=lfs -text
-*.exr filter=lfs diff=lfs merge=lfs -text
 *.graph filter=lfs diff=lfs merge=lfs -text
 /Midnight-Maneuver/Library/Artifacts/00/0000f9e138d5f0699ace233517bc51bd filter=lfs diff=lfs merge=lfs -text
 /Midnight-Maneuver/Library/Artifacts/00/004458d71e8c4faa3954bc48b887fb4c filter=lfs diff=lfs merge=lfs -text
@@ -2258,7 +2297,6 @@
 /Midnight-Maneuver/Library/Bee/CachedNodeOutput/e599a1113f1bf879911b621cbe5183a2_out filter=lfs diff=lfs merge=lfs -text
 /Midnight-Maneuver/Library/Bee/CachedNodeOutput/f5215be3a8537d9aa64df95a637f4d16_out filter=lfs diff=lfs merge=lfs -text
 *.map filter=lfs diff=lfs merge=lfs -text
-*.dll filter=lfs diff=lfs merge=lfs -text
 *.mvfrm filter=lfs diff=lfs merge=lfs -text
 *.rsp filter=lfs diff=lfs merge=lfs -text
 *.rsp2 filter=lfs diff=lfs merge=lfs -text
@@ -2266,7 +2304,6 @@
 *.collabignore filter=lfs diff=lfs merge=lfs -text
 *.buginfo filter=lfs diff=lfs merge=lfs -text
 *.signature filter=lfs diff=lfs merge=lfs -text
-*.gif filter=lfs diff=lfs merge=lfs -text
 *.uxml filter=lfs diff=lfs merge=lfs -text
 *.uss filter=lfs diff=lfs merge=lfs -text
 *.asmdef filter=lfs diff=lfs merge=lfs -text
@@ -2284,12 +2321,9 @@
 /Midnight-Maneuver/Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Plugins/AppleEventIntegration.bundle/Contents/MacOS/AppleEventIntegration filter=lfs diff=lfs merge=lfs -text
 /Midnight-Maneuver/Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Plugins/AppleEventIntegration.bundle/Contents/_CodeSignature/CodeResources filter=lfs diff=lfs merge=lfs -text
 *.svg filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
 *.cginc filter=lfs diff=lfs merge=lfs -text
 *.shader filter=lfs diff=lfs merge=lfs -text
 *.po filter=lfs diff=lfs merge=lfs -text
 *.anim filter=lfs diff=lfs merge=lfs -text
 *.playable filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.mp3 filter=lfs diff=lfs merge=lfs -text
 *.signal filter=lfs diff=lfs merge=lfs -text
